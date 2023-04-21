@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+
+}
+header{
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#splash{
+    background:url('https://www.photos-public-domain.com/wp-content/uploads/2012/04/cloudy-overcast-sky.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size: cover;
+
+}
+#hero{
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:url('https://www.photos-public-domain.com/wp-content/uploads/2012/04/cloudy-overcast-sky.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size: cover;
+    height: 100px;
+}
+#weather{
+    width: 60%;
+    margin: auto;
+    background-color:rgb(40, 40, 40);
+    color: whitesmoke;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px ;
+}
