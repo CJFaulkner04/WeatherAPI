@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="styles.css">
         <title>Document</title>
     </head>
-    <body>
-        <div id="splash">
+    <body id="splash">
+        <div>
             <header>
                 <h1>Weather API</h1>
                 <img src="https://static.vecteezy.com/system/resources/previews/019/858/986/original/cloud-and-sun-clipart-with-transparent-background-for-decoration-of-art-file-free-png.png" width="200px">
@@ -19,16 +19,22 @@
                 <h1>Super cool Weather App</h1>
                 <form id="form">
                     <p>Enter Your Zipcode: </p>
-                    <input></input>
-                    <button type="submit"  >Enter</button>
+                    <input id="zipcode" type="text"></input>
+                    <button type="submit" id="button" onclick="getWeather()">Enter</button>
                 </form>
             </div>
         </div>
         <main id="weather">
-            <h1>No Zipcode Entered</h1>
+            <h2>Enter Zipcode</h2>
+            <h3>N/A &deg;F</h3>
+            <p>Condition: N/A</p>
+            <div class="HiLo">
+                <p class="high">Hi: N/A &deg;F</p>
+                <p class="low">Lo: N/A &deg;F</p>
+            </div>
         </main>
-
-        <footer></footer>
         
+        
+        <script src="script.js"></script>
     </body>
 </html>
