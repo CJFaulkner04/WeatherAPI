@@ -1,12 +1,10 @@
-const apiKey = '0a6595057ce869f2a5f189ce6d19157b';
-
 const form = document.querySelector('#form');
 const zipcodeInput = document.querySelector('#zipcode');
 const weatherContainer = document.querySelector('#weather');
 
 function getWeather() {
   const zipcode = zipcodeInput.value;
-  const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&appid=${apiKey}&units=imperial`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&appid=0a6595057ce869f2a5f189ce6d19157b&units=imperial`;
 
   fetch(url)
     .then(response => response.json())
